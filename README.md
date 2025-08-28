@@ -17,7 +17,7 @@ Para poder utilizar este proyecto debes tener las siguientes herramientas💻
 ✔️ [Git](https://git-lfs.com/)
 <br/> 
 
-# <div align="center">   Como configurar el proyecto</div>
+# <div align="center">   Configuración del proyecto</div>
 <div id="header" align="center">
     <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGllNGdhZHFkb2xldzh5cnR3YXRkYzI2Nmh5OTJ6azRxeGYzMGNxYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hfdPrGV3c9F9p4bT5u/giphy.gif" 
     width="160"/> 
