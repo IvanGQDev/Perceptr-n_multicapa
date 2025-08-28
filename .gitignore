@@ -1,6 +1,3 @@
 #ignore
 /*.json
-
-/Files/*.json
-
 __pycache__/
