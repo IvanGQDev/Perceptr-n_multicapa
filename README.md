@@ -10,9 +10,9 @@ Para poder utilizar este proyecto debes tener las siguientes herramientas💻
 </div>
 <br/> 
 
-✔️ [Python 3]([https://www.unrealengine.com/](https://www.python.org/downloads/))
+✔️ [Python 3](https://www.python.org/downloads/)
 <br/> 
-✔️ [TensorFlow]([https://git-scm.com/](https://www.tensorflow.org/?hl=es-419))
+✔️ [TensorFlow](https://www.tensorflow.org/?hl=es-419)
 <br/> 
 ✔️ [Git](https://git-lfs.com/)
 <br/> 
