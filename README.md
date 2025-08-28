@@ -26,7 +26,7 @@ Para poder utilizar este proyecto debes tener las siguientes herramientas💻
 ## <div align="left">¿Cómo usar el proyecto? <a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="20" /></a></div> 
 * Bajar el repositorio (https://github.com/IvanGQDev/Perceptr-n_multicapa/).
 * Instalar todos los módulos necesarios.
-* Correr el proyecto con el comando en consola: **python main.py**.
+* Correr el proyecto con el comando en consola: ```bash python main.py```.
 
 
 
