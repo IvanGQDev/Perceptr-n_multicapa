@@ -27,6 +27,7 @@ Para poder utilizar este proyecto debes tener las siguientes herramientas💻
 * Bajar el repositorio (https://github.com/IvanGQDev/Perceptr-n_multicapa/).
 * Instalar todos los módulos necesarios.
 * Correr el proyecto con el comando en consola: ```python main.py```.
+* Para obtener un resultado y enviar los datos, es necesario tener los archivos JSON requeridos en la carpeta Files.
 
 
 
