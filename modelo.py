@@ -4,11 +4,11 @@ from tensorflow.keras import layers, models
 from sklearn.model_selection import train_test_split
 
 def simular_jugador():
-    score = np.random.randint(1000, 2500)
-    tiempo_prom = np.random.uniform(10, 15)
+    score = np.random.randint(400, 1500)
+    tiempo_prom = np.random.uniform(10, 18)
     grab_attempts = np.random.randint(1, 20)
-    num_posiciones_prom = np.random.randint(270, 430)
-    apto = 1 if (score >= 2000 and tiempo_prom <= 15 and grab_attempts <= 10 and num_posiciones_prom <= 350) else 0
+    num_posiciones_prom = np.random.randint(140, 430)
+    apto = 1 if (score >= 600 and tiempo_prom <= 12 and grab_attempts <= 10 and num_posiciones_prom <= 350) else 0
     return [score, tiempo_prom, grab_attempts, num_posiciones_prom], apto
 
 def simular_dataset(n=2000):
@@ -37,11 +37,11 @@ def crear_modelo():
     print(f"\nPrecisión del modelo en test: {acc:.2f}")
     return modelo
 
-def evaluar_speedrun(modelo, speedrun):
+def evaluar_speedrun(modelo, speedrun, umbral=0.4):
     X_real = np.array([[speedrun['score'], speedrun['tiempo_prom'],
                         speedrun['grab_attempts'], speedrun['num_posiciones_prom']]])
     pred = modelo.predict(X_real)[0][0]
-    speedrun['resultado_final'] = 1 if pred >= 0.5 else 0
+    speedrun['resultado_final'] = 1 if pred >= umbral else 0
     speedrun['prob_apto'] = float(pred)
-    speedrun['clasificacion'] = 1 if pred >= 0.5 else 0
+    speedrun['clasificacion'] = 1 if pred >= umbral else 0
     return speedrun
